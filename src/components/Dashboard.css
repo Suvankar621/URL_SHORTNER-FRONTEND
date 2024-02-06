@@ -1,0 +1,43 @@
+.dashboard{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  
+   
+  
+}
+.dashboard h1{
+    margin: auto;
+    color: white;
+    
+}
+#surl{
+    color: greenyellow;
+}
+#url{
+    color: wheat;
+}
+li{
+    color: white;
+    background-color: rgb(13, 0, 101);
+    margin: 1vmax;
+    padding: 1vmax;
+    border-radius: 12px;
+}
+button{
+    width: 7vmax;
+    height: 2vmax;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  
+}
+button:hover{
+    background-color: rgb(8, 131, 255);
+    color: white;
+    font-weight: bold;
+}
+button:active{
+    transform: scale(-1);
+}

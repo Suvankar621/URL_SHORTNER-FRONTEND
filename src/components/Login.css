@@ -1,0 +1,23 @@
+.login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    margin: auto;
+    width: 28vmax;
+    height: 32vmax;
+    margin-top: 1vmax;
+
+}
+.login h2{
+    color: white;
+}
+.login input{
+    width: 70%;
+    margin: 1vmax;
+    border-radius: 12px;
+    border: none;
+    padding: 1vmax;
+}

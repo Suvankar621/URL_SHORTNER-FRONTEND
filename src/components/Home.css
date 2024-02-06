@@ -1,0 +1,102 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar h1{
+  color: white;
+  margin: 1vmax;
+}
+.buttons button{
+  width: 7vmax;
+  height: 2vmax;
+  margin: 1vmax;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+}
+.buttons button:hover{
+background-color: rgb(8, 131, 255);
+color: white;
+font-weight: bold;
+
+}
+.buttons button:active{
+  transform: scale(-1);
+}
+.navbar button{
+  width: 7vmax;
+  height: 2vmax;
+  margin: 1vmax;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5ms ease-in-out;
+}
+.navbar button:hover{
+  background-color: rgb(8, 131, 255);
+  color: white;
+  font-weight: bold;
+}
+.navbar button:active{
+  transform: scale(-1);
+}
+.urlshortner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.urlshortner h2{
+  color: white;
+}
+.urlshortner input{
+  width: 70%;
+
+  border-radius: 12px;
+  border: none;
+  padding: 1vmax;
+}
+.urlshortner button{
+  margin-top: 1vmax;
+  width: 8vmax;
+  height: 3vmax;
+  margin: 1vmax;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.urlshortner button:hover{
+  background-color: rgb(8, 131, 255);
+  color: white;
+  font-weight: bold;
+}
+.urlshortner button:active{
+  transform: scale(-1);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vmax;
+  width: 100%;
+  overflow: hidden;
+
+
+}
+.container div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: wheat;
+}
+.container div a{
+  margin: 1vmax;
+  color: greenyellow;
+}

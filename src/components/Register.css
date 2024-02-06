@@ -1,0 +1,23 @@
+.register{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    margin: auto;
+    width: 28vmax;
+    height: 32vmax;
+    margin-top: 1vmax;
+
+}
+.register h2{
+    color: white;
+}
+.register input{
+    width: 70%;
+    margin: 1vmax;
+    border-radius: 12px;
+    border: none;
+    padding: 1vmax;
+}
