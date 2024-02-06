@@ -58,7 +58,7 @@ const Dashboard = () => {
         {urls.map((url) => (
           <li key={url._id}>
             <p id='url'>ORIGINAL URL= {url.originalUrl}</p>
-            <p >SHORTEN URL= <a href={url.shortUrl} target="_blank" rel="noopener noreferrer"id='surl'>
+            <p >SHORTEN URL= <a href={url.originalUrl} target="_blank" rel="noopener noreferrer"id='surl'>
             {url.shortUrl}
           </a></p>
             <button onClick={() => handleDelete(url._id)}>Delete</button>

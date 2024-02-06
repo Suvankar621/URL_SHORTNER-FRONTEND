@@ -67,7 +67,7 @@ const Home = () => {
 <div className="container">
 {shortUrl && (
         <div>
-         <p>Shortened URL:</p><a href={shortUrl} target="_blank" rel="noopener noreferrer">
+         <p>Shortened URL:</p><a href={originalUrl} target="_blank" rel="noopener noreferrer">
             {shortUrl}
           </a>
          
